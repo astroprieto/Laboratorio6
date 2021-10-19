@@ -1,0 +1,67 @@
+body {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+.navbar
+{
+  max-width: 120rem;
+  margin: 0 auto 0 auto;
+  background-color: #6d322b;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.links 
+{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul
+{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+
+nav li
+{
+  display: inline-block;
+}
+
+nav li a
+{
+  display: block;
+  width: 150px;
+  padding: 5px 5px;
+  font-size: 20px;
+}
+
+.links li a
+{
+  text-decoration: none;
+  color: #6ca84f;
+}
+
+.gimp_pepper
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gimp_pepper h1 
+{
+  text-align: center;
+}
+
+.gimp_pepper img 
+{
+  width: 25%;
+}
+
+
+
